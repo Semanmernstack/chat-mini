@@ -56,7 +56,7 @@ function Body() {
         </div>
         <div >
         <form className=" flex p-1 space-x-2 mb-10 lg:mb-2  ">
-            <div className="max-w[200px] space-x-2 text-rose-800">
+            <div className="max-w[200px] space-x-2">
             <input value={inputt}
               onChange={(e) => setInputt(e.target.value)}
 
