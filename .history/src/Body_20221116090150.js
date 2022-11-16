@@ -59,7 +59,7 @@ function Body() {
             <input value={inputt}
               onChange={(e) => setInputt(e.target.value)}
 
-              className="w-[250px] rounded-full outline-none   p-1 lg:3 border-none" type="text" placeholder='type in your message'
+              className="w-[150px] rounded-full outline-none   p-1 lg:3 border-none" type="text" placeholder='type in your message'
             />
             <button onClick={sendMessage} type="submit" className="lg:text-xl text-sm font-medium  animate-pulse">send</button>
         </form>
