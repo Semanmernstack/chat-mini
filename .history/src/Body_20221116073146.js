@@ -39,7 +39,7 @@ function Body() {
     setInputt("")
   }
   return (
-    <div className="flex flex-col h-screen bg-slate-500 w-full  ">
+    <div className="flex flex-col h-screen bg-slate-500  ">
         <div className="flex-1 ">
         <BodyHeader channelName={channelName}  />
         <div  >
@@ -55,13 +55,13 @@ function Body() {
         </div>
         </div>
         <div >
-        <form className=" flex p-1 space-x-2 mb-1 lg:mb-2  ">
+        <form className=" flex p-1 space-x-2 ">
             <input value={inputt}
               onChange={(e) => setInputt(e.target.value)}
 
-              className="flex-1 rounded-full outline-none  p-1 lg:3 border-none" type="text" placeholder='type in your message'
+              className="flex-1 rounded-full outline-none p-1 lg:3 border-none" type="text" placeholder='type in your message'
             />
-            <button onClick={sendMessage} type="submit" className="lg:text-xl text-sm font-medium  animate-pulse">send</button>
+            <button onClick={sendMessage} type="submit" className="lg:text-xl text-sm font-medium mb-1 animate-pulse">send</button>
         </form>
         </div>
     </div>

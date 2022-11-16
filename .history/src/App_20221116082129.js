@@ -31,7 +31,7 @@ function App() {
 
   return (
     
-    <div className="flex  items-center overflow-hidden  overflow-y-hidden sm:max-w-[640px] lg:max-w-[1024px]    h-screen  md:max-w-[800px]    mx-auto border-2">
+    <div className="flex  items-center overflow-hidden  overflow-y-hidden sm:max-w-[600px] lg:max-w-[1024px]    h-screen  md:max-w-[800px]    mx-auto border-2">
 
        {user ? (
         <>

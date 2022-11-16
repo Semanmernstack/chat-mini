@@ -11,7 +11,7 @@ function SidebarList({ id, channelName}) {
         }
     ))} 
         className="flex items-center justify-between cursor-pointer border  lg:p-2">
-        <h2 className="my-1 text-sm lg:xl">
+        <h2 className="my-1 text-lg">
          $  <span>{channelName}</span>
         </h2>
         

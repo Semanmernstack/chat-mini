@@ -33,7 +33,7 @@ function Sidebar() {
   }
 
   return (
-    <div className="flex flex-col h-screen bg-slate-400   p-2 ">
+    <div className="flex flex-col h-screen bg-slate-400  border-r-2 p-2 mb-1">
         <div className="flex-1"  >
         <div className="shadow-lg p-1 items-center  font-extrabold">
             <h1 className="text-2xl text-red-500">Welcome <span className="text-lg text-pink-500">{user.displayName}</span></h1>

@@ -31,15 +31,15 @@ function App() {
 
   return (
     
-    <div className="flex  items-center overflow-hidden  overflow-y-hidden sm:max-w-[640px] lg:max-w-[1024px]    h-screen  md:max-w-[800px]    mx-auto border-2">
+    <div className="flex  items-center overflow-hidden overflow-y-hidden    max-w-screen-xl mx-auto border-2">
 
        {user ? (
         <>
-        <div className=" flex-[0.4]  ">
+        <div className=" flex-[0.4] h-screen ">
           
         <Sidebar/>
       </div>
-      <div className=" flex-[0.6] ">
+      <div className=" flex-[0.6] h-screen">
         <Body/>
       </div>
       </>
