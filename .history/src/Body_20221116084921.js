@@ -55,11 +55,11 @@ function Body() {
         </div>
         </div>
         <div >
-        <form className=" flex p-1 space-x-2 mb-10 lg:mb-2  ">
+        <form className=" flex p-1 space-x-2 mb-1 lg:mb-2  ">
             <input value={inputt}
               onChange={(e) => setInputt(e.target.value)}
 
-              className="flex-1 rounded-full outline-none   p-1 lg:3 border-none" type="text" placeholder='type in your message'
+              className="flex-1 rounded-full outline-none mb-6  p-1 lg:3 border-none" type="text" placeholder='type in your message'
             />
             <button onClick={sendMessage} type="submit" className="lg:text-xl text-sm font-medium  animate-pulse">send</button>
         </form>

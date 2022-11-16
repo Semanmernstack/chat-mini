@@ -66,7 +66,7 @@ function Sidebar() {
             <h3>{user.displayName}</h3> 
             
         </div>
-        <h1 onClick={signOut} className="text-center text-red-500 text-sm m-10 cursor-pointer" >Logout</h1>
+        <h1 onClick={signOut} className="text-center text-red-500 text-sm m-8 cursor-pointer" >Logout</h1>
         
         
     </div>
